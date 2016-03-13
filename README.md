@@ -44,7 +44,7 @@ In the Material Light edition, the color scheme will be reversed, and in the Mat
 I can't state a defined ETA, so come back here frequently to check if a new version is avaliable.
 
 [1]: https://github.com/ccd0/4chan-x
-[2]: https://github.com/commit-sudoku/zayriou
+[2]: https://github.com/commit-sudoku/zairyou
 [3]: https://raw.githubusercontent.com/commit-sudoku/zairyou/gh-pages/boardshelp.png
 [4]: about:addons
 [5]: http://i.imgur.com/x970AkQ.png
