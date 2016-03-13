@@ -10,7 +10,7 @@ Features
 
 * This style currently only works on firefox.
 
-* Big thanks to [mudanaku] [2] for updating and fixing this style.
+* Big thanks to [commit-sudoku] [2] for updating and fixing this style.
 
 * To get the board links to display properly, use the custom navigation found in the advanced section of the settings. Click [here] [3] for an example.
 
@@ -37,7 +37,17 @@ Installation guide
 Rice up
 -------------------------------
 
-I'm relatively new to CSS, so i don't know thath much about it, but i'm going to release two more versions of this theme: "Material Light" and "Material Editable".
+I'm relatively new to CSS, so i don't know thath much about it: any help is warmly welcomed.
 
-In the Material Light edition, the color scheme will be reversed, and in the Material Editable, the colors will be accessible and fully customizable.
-I don't know the ETA, so once in a while come back here to check if a new version is avaliable.
+
+I'm going to release two more versions of this theme: "Material Light" and "Material Editable".
+In the Material Light edition, the color scheme will be reversed, and in the Material Editable, the colors will be easily accessible and fully customizable.
+I can't state a defined ETA, so come back here frequently to check if a new version is avaliable.
+
+[1]: https://github.com/ccd0/4chan-x
+[2]: https://github.com/mudanaku/
+[3]: https://raw.githubusercontent.com/commit-sudoku/zairyou/gh-pages/boardshelp.png
+[4]: about:addons
+[5]: http://i.imgur.com/x970AkQ.png
+[6]: https://addons.mozilla.org/en-us/firefox/addon/stylish/
+[7]: https://github.com/adobe-fonts/source-han-sans/tree/release
