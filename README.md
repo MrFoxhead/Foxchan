@@ -6,11 +6,10 @@
 Features
 -----------
 
+* This style is based on Zairyou avaliable [here] [2]
 * This style is written only to work with ccd'0s 4chanX fork.
 
 * This style currently only works on firefox.
-
-* Big thanks to [commit-sudoku] [2] for updating and fixing this style.
 
 * To get the board links to display properly, use the custom navigation found in the advanced section of the settings. Click [here] [3] for an example.
 
@@ -45,7 +44,7 @@ In the Material Light edition, the color scheme will be reversed, and in the Mat
 I can't state a defined ETA, so come back here frequently to check if a new version is avaliable.
 
 [1]: https://github.com/ccd0/4chan-x
-[2]: https://github.com/mudanaku/
+[2]: https://github.com/commit-sudoku/zayriou
 [3]: https://raw.githubusercontent.com/commit-sudoku/zairyou/gh-pages/boardshelp.png
 [4]: about:addons
 [5]: http://i.imgur.com/x970AkQ.png
