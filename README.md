@@ -1,10 +1,9 @@
-#Foxchan: a Material Design compliant 4chan theme
+#Foxchan: a Material Design compliant 4chan
 
 ![screenshot](https://github.com/MrFoxhead/Foxchan/blob/master/DARK%20SCREENSHOT.png?raw=true)
 ~material dark theme~
 
-Features
------------
+##Features
 
 * This style is based on Zairyou avaliable [here] [2]
 * This style is written only to work with ccd'0s 4chanX fork.
@@ -33,8 +32,8 @@ Changelog
 - Base version
 
 
-Installation guide
--------------------------------
+##Installation guide
+
 
 * Install [ccd0's 4chanX] [1] userscript. 
 * Install the [Stylish] [6] extension. 
@@ -45,8 +44,8 @@ Installation guide
 * Turn OFF 'Persistent QR', 'Thread Hiding Buttons', and 'Reply Hiding Buttons'
 * OPTIONAL: Turn ON 'Relative Post Dates' and Turn OFF 'Relative Date Title'
 
-Rice up
--------------------------------
+##Rice up
+
 
 I'm relatively new to CSS, so i don't know thath much about it: any help is warmly welcomed.
 
