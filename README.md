@@ -39,14 +39,15 @@ Changelog
 ##Installation guide
 
 
-* Install [ccd0's 4chanX] [1] userscript. 
-* Install the [Stylish] [6] extension. 
-* Navigate to the userstyles section of the [Addons] [4] page. 
-* Click on "Write New Style", give it a name, and paste the CSS there. 
-* Go into your 4chan X settings.
-* Turn ON 'Catalog Links'
-* Turn OFF 'Persistent QR', 'Thread Hiding Buttons', and 'Reply Hiding Buttons'
-* OPTIONAL: Turn ON 'Relative Post Dates' and Turn OFF 'Relative Date Title'
+1. Install [ccd0's 4chanX] [1] userscript. 
+2. Install the [Stylish] [6] extension. 
+3. Navigate to the userstyles section of the [Addons] [4] page. 
+4. Click on "Write New Style", give it a name, and paste the CSS there. 
+5. Go into your 4chan X settings.
+6. Turn ON 'Catalog Links'
+7. Turn OFF 'Persistent QR', 'Thread Hiding Buttons', and 'Reply Hiding Buttons'
+8. OPTIONAL: Turn ON 'Relative Post Dates' and Turn OFF 'Relative Date Title'
+9. OPTIONAL:  
 
 ##Rice up
 
