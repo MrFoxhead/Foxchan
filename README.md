@@ -1,4 +1,4 @@
-#Foxchan: a Material Design compliant 4chan
+#Foxchan: a Material Design 4chan
 
 ![screenshot](https://github.com/MrFoxhead/Foxchan/blob/master/DARK%20SCREENSHOT.png?raw=true)
 ~material dark theme~
