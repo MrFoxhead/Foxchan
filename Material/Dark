@@ -15,7 +15,8 @@
 
 @-moz-document domain("boards.4chan.org"), regexp("https?://boards\\.4chan\\.org\\/(.|..|...|....)\\/catalog"), regexp("https?://.*.(google.com/recaptcha/api2).*") {
   :root {
-    --accent-color: #00796b;  /*   replace this to change accent color */
+    --primary-color-accent: 	#607d8b;    /*     replace this to change the main accent color    */
+    --secondary-color-accent: 	#455a64;    /*   replace this to change the secondary accent color */
   }
 } 
    
@@ -109,7 +110,7 @@
   #board-list::after {           /*   this is the header bar at the top   */             
     display: inline !important;
     content: "" !important;
-    background-color: var(--accent-color) !important;
+    background-color: var(--secondary-color-accent) !important;
     background-size: cover !important;
     background-position: 50% 50% !important;
     
@@ -131,7 +132,7 @@
   }
 
   div.post div.postInfo span.postNum a:hover {
-     color: var(--accent-color) !important;
+     color: var(--secondary-color-accent) !important;
   }
   
   .top-header.autohide #board-list::before {
@@ -186,9 +187,9 @@
     content: "Boards" !important;
     width: 256px !important;
     color: #ffffff !important;
-    border-top: 1px solid #00796b !important;
-    border-bottom: 1px solid #00796b !important;
-    background: #00796b !important;
+    border-top: 1px solid var(--secondary-color-accent) !important;
+    border-bottom: 1px solid var(--secondary-color-accent) !important;
+    background: var(--secondary-color-accent) !important;
     font-size: 12pt !important;
     position: fixed !important;
     padding: 9px 0 9px 0 !important;
@@ -330,22 +331,22 @@
     left:265px!important;
     width: 519px !important;
     text-align: center !important;
-    background-color:#212121!important;
-    border:solid 5px #212121!important;
+    background-color:#2f2f2f!important;
+    border:solid 2px #2f2f2f!important;
     border-radius: 2px!important;
-    transition: all 0.5s ease;
-    z-index: -10 !important;
+    transition: all 1s ease;
+    z-index: -15 !important;
     font-size: 12pt !important;
     padding-left: 11px !important;
     padding-right: 1px !important;
-    padding-top: 12px !important;
+    padding-top: 16px !important;
     padding-bottom: 17px !important;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
   }
 
   #full-board-list:not([Hidden]) {
     visibility: visible !important;
-    top: 72px !important;
+    top: 77px !important;
     bottom: auto !important;
     transition: all 0.5s ease;
   }
@@ -487,7 +488,8 @@
   }
     
   a:hover {
-    color: var(--accent-color) !important;
+    color: var(--secondary-color-accent)
+      !important;
   }
     
   .op {
@@ -641,12 +643,12 @@
   
   #menu.dialog:not(.left) {
     font-size: 12pt !important;
-    background: white !important;
+    background: #2f2f2f !important;
     transition: 0.5s color ease;
     min-width: 140px !important;
     height: auto !important;
     z-index: 100 !important;
-    border:4px solid #ffffff!important;
+    border:4px solid #2f2f2f!important;
     border-radius:2px!important;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12) !important;
   }
@@ -665,9 +667,9 @@
   #menu.dialog:not(.left) .submenu {
     font-size: 12pt !important;
     min-width: 184px !important;
-    background-color: #fff !important;
+    background-color: #2f2f2f !important;
     margin-right: 10px !important;
-    border:4px solid #ffffff !important;
+    border:4px solid #2f2f2f !important;
     border-radius:2px!important;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12) !important;
   }
@@ -694,12 +696,12 @@
     font-style: normal !important;
     content: "a" !important;
     position: fixed !important;
-    color: #f00 !important;
+    color: #2f2f2f !important;
     width: 0 !important;
     height: 0 !important;
     border-style: solid !important;
     border-width: 5px 4px 0 4px !important;
-    border-color: #ffffff transparent transparent !important;
+    border-color: #2f2f2f transparent transparent !important;
     top: 30px !important;
     right: 27px !important;
     font-size: 0 !important;
@@ -711,14 +713,14 @@
     content: "Thread watcher" !important;
     width: 256px !important;
     padding: 9px 0 9px 0 !important;
-    background: #00796b !important;
+    background: var(--secondary-color-accent) !important;
     font-size: 12pt !important;
     font-weight: normal !important;
     position: absolute !important;
     left: 0 !important;
     z-index: 40 !important;
-    border-bottom: 1px solid #00796b !important;
-    border-top: 1px solid #00796b !important;
+    border-bottom: 1px solid var(--secondary-color-accent) !important;
+    border-top: 1px solid var(--secondary-color-accent) !important;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12) !important;
   }
 
@@ -813,7 +815,7 @@
     padding-bottom:1px!important;
     border-top: 1px solid !important;
     height:1px !important;
-    border-color:var(--accent-color)!important;
+    border-color:var(--secondary-color-accent)!important;
   }
 
   /*
@@ -939,7 +941,7 @@
   .summary:hover,
   #thread-watcher a:hover,
   #board-list a:hover {
-    color: var(--accent-color) !important;
+    color: var(--secondary-color-accent) !important;
   }
 
   .postertrip {
@@ -960,7 +962,7 @@
     font-family: Roboto !important;
     font-size: 12pt !important;
     font-weight: bold !important;
-    color: #00796b !important;
+    color: var(--secondary-color-accent) !important;
     opacity: 0.87 !important;
     margin-left: -2px !important;
   }
@@ -969,7 +971,7 @@
     font-family: Roboto !important;
     font-size: 12pt !important;
     font-weight: bold !important;
-    color: #009688 !important;
+    color: var(--primary-color-accent) !important;
     opacity: 0.87 !important;
     margin-left: -4px !important;
   }
@@ -1021,7 +1023,7 @@
 
   .postNum a {
     font-size: 12pt !important;
-    color: #00796b !important;
+    color: var(--secondary-color-accent) !important;
   }
   
   .posteruid {
@@ -1035,7 +1037,7 @@
   }
   
   .hand.painted:hover {
-    background-color: var(--accent-color) !important;
+    background-color: var(--secondary-color-accent) !important;
     color: #fff !important;
   }
     
@@ -1057,7 +1059,7 @@
   .backlink,
   .inline .backlink,
   a.quotelink {
-    color: #009688 !important;
+    color: var(--primary-color-accent) !important;
   }
 
   .quotelink.inlined,
@@ -1155,7 +1157,7 @@
   .linkify,
   .globalMessage a,
   .fileThumb > img:first-child {
-    color: #009688 !important;
+    color: var(--primary-color-accent) !important;
   }
 
   /*
@@ -1188,7 +1190,9 @@
   }
 
   #fourchanx-settings.dialog {
-    background: #fff !important;
+    background: #2f2f2f !important;
+    border-radius:2px!important;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12) !important;
   }
 
   .dialog {
@@ -1217,11 +1221,11 @@
   }
 
   #fourchanx-settings.dialog a {
-    color: #212121 !important;
+    color: var(--primary-color-accent) !important;
   }
 
   #fourchanx-settings.dialog a:hover {
-    color: #fff !important;
+    color: var(--secondary-color-accent) !important;
   }
   
   .yotsuba-b:root #fourchanx-settings fieldset, .yotsuba-b:root .section-main div::before {
@@ -1314,7 +1318,7 @@
   input:focus:not([type]), 
   textarea:focus{
     box-shadow: none !important;
-    border-color: var(--accent-color) !important;
+    border-color: var(--secondary-color-accent) !important;
   }
 
   input:-moz-placeholder,
@@ -1343,7 +1347,7 @@
     min-height: 18px !important;
     margin-top: 1px !important;
     margin-left: -13.1px !important;
-    background: white !important;
+    background: var(--primary-color-accent) !important;
   }
 
   #qr-spoiler-label input {
@@ -1489,11 +1493,11 @@
   }
   
   #url-button, #paste-area, #dump-button {
-    color: #009688 !important;
+    color: var(--primary-color-accent) !important;
   }
   
   #url-button:hover, #paste-area:hover, #dump-button:hover {
-    color: var(--accent-color) !important;
+    color: var(--secondary-color-accent) !important;
   }
   
   .party-hat {
@@ -1794,7 +1798,7 @@
     margin-right: 7px !important;
     margin-left: -2px !important;
     font-size: 12pt !important; 
-    color: #00796b !important;
+    color: var(--secondary-color-accent) !important;
     text-transform: none !important;
     z-index: 2 !important;
   }
@@ -2080,7 +2084,7 @@
   .rc-anchor-checkbox-label:after {
     content: "ロボットではない" !important;
     font-size: 14px !important;
-    color: var(--accent-color) !important;
+    color: var(--secondary-color-accent) !important;
   }
     
   .rc-anchor-checkbox { 
@@ -2101,7 +2105,7 @@
   }
   
   .rc-imageselect-desc-wrapper, .rc-button-default {
-    background-color: var(--accent-color) !important;
+    background-color: var(--secondary-color-accent) !important;
   }
   
   .rc-button-default:focus {
@@ -2109,7 +2113,7 @@
   }
   
   .rc-imageselect-target > div:focus {
-    outline-color: var(--accent-color) !important;
+    outline-color: var(--secondary-color-accent) !important;
   }
   
   .rc-imageselect-checkbox {
