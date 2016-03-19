@@ -21,6 +21,18 @@ Features
 
 * Press 'Q' to open quick reply.
 
+
+Changelog
+-----------
+* 1.1
+- Added the option to change the primary and secondary color accent by editing the first line of code
+- Settings panel colors are now in line with the dark theme (but some of them are still hard to read)
+- Now links are colored according to primary and secondary accent color
+
+* 1.0
+- Base version
+
+
 Installation guide
 -------------------------------
 
